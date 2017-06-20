@@ -1,0 +1,145 @@
+* {
+ margin: 0px;
+ padding: 0px;
+}
+
+#main_wrap {
+    width: 1300px;
+    margin: 10px auto;
+}
+
+header {
+    width: 1190px;
+    height: 40px;
+    margin: 5px auto;
+    padding: 5px;
+    background: linear-gradient(#0F99DA, #096A96);
+	background: -webkit-linear-gradient(#0F99DA, #096A96);
+}
+
+header h2 {
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#menu {
+    width: 1190px;
+    height: 25px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #096A96;
+    color: #fff;
+}
+
+#menu ul  {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu ul li {
+    float: left;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#menu ul li a:hover {
+    text-decoration: underline;
+}
+
+#search_form {
+    margin-left: 600px;
+}
+
+#content_wrap {
+    width: 1190px;
+    margin: 0px auto;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+}
+
+#main-content {
+    width: 1170px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px #666;
+    background-color: #fff;
+    clear: both;
+}
+
+#product {
+    clear: both;
+    width: 1150px;
+    height: 210px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#image {
+    float: left;
+    width 300px;
+    padding: 5px;
+}
+
+#details {
+    margin-left: 20px;
+    width: 800px;
+    padding: 5px;
+    float: left;
+}
+
+#left {
+    float: left;
+    width: 290px;
+    padding: 10px;
+    text-align: center;
+}
+
+#right {
+    float: left;
+    width: 790px;
+    padding: 10px;
+}
+
+#left img {
+    width: 225px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 1px;
+}
+
+#footer {
+    clear: both;
+}
+
+#menu input[type="text"] {
+    width: 500px;
+    outline: none;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#menu input[type="submit"] {
+    padding: 3px;
+    color: #fff;
+    background-color: #096A96;
+    outline: none;
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 3px;
+}
